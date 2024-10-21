@@ -4,7 +4,7 @@ const path = require('path');
 const PORT = 2009;
 const ip = '54.221.65.213';
 
-app.use(express.static('public'));
+
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));  // Asegúrate de que esta línea esté correcta
