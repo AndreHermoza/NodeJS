@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () =>{
     const form = document.getElementById("contactForm");
 
     const nombreApellidoInput = document.getElementById("nombreapellido"); // Son sobrenombres de mis campos (id)
